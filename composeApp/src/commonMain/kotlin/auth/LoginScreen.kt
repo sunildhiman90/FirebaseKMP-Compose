@@ -43,9 +43,10 @@ fun LoginScreen1(
     val uiState by viewModel.uiState.collectAsState()
     val emailError by viewModel.emailError.collectAsState()
     val passwordError by viewModel.passwordError.collectAsState()
+    val isProcessing by viewModel.isProcessing.collectAsState()
+    val isButtonEnabled by viewModel.isProcessing.collectAsState()
+    val currentUser by viewModel.currentUser.collectAsState()
 
-    val isProcessing = false
-    val currentUser = User()
 
     LoginScreenContent(
         uiState = uiState,

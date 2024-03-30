@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "989450187258",
+    "project_id": "fir-cmp-demo",
+    "storage_bucket": "fir-cmp-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989450187258:android:a2bcb561ffc4e469693443",
+        "android_client_info": {
+          "package_name": "com.codingambitions.firebasekmpcompose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAxelH0-YztIi4We56NKxoLsDuLYkz5ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

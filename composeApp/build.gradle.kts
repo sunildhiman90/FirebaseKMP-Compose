@@ -76,6 +76,7 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
 
             implementation(libs.mvvm.core)
+            implementation(libs.firebase.auth)
         }
     }
 }
