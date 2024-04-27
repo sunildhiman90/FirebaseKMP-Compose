@@ -10,9 +10,9 @@ fun main() {
 
     Firebase.initialize(
         options = FirebaseOptions(
-            applicationId = "1:989450187258:web:753aa3d669dcca7c693443",
-            apiKey = "AIzaSyCAxelH0-YztIi4We56NKxoLsDuLYkz5ng",
-            projectId = "fir-cmp-demo"
+            applicationId = "Add your firebase web appId here",
+            apiKey = "Add your firebase project api key here",
+            projectId = "Add your firebase projectId here"
         )
     )
 

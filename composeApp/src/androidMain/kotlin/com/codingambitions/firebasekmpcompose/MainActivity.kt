@@ -17,9 +17,9 @@ class MainActivity : ComponentActivity() {
         Firebase.initialize(
             applicationContext,
             options = FirebaseOptions(
-                applicationId = "1:989450187258:android:a2bcb561ffc4e469693443",
-                apiKey = "AIzaSyCAxelH0-YztIi4We56NKxoLsDuLYkz5ng",
-                projectId = "fir-cmp-demo"
+                applicationId = "Add your firebase web appId here",
+                apiKey = "Add your firebase project api key here",
+                projectId = "Add your firebase projectId here"
             )
         )
 
