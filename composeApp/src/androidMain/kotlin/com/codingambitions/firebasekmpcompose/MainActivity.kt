@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         Firebase.initialize(
             applicationContext,
             options = FirebaseOptions(
-                applicationId = "Add your firebase web appId here",
+                applicationId = "Add your firebase android appId here",
                 apiKey = "Add your firebase project api key here",
                 projectId = "Add your firebase projectId here"
             )
