@@ -26,7 +26,7 @@ kotlin {
 //    }
 
     js(IR) {
-        moduleName = "composeApp"
+        outputModuleName = "composeApp"
         browser {
             commonWebpackConfig {
                 outputFileName = "composeApp.js"
@@ -41,16 +41,10 @@ kotlin {
         binaries.executable()
     }
     
-    androidTarget {
-        compilations.all {
-            kotlinOptions {
-                jvmTarget = "11"
-            }
-        }
-    }
+    androidTarget()
     
     listOf(
-        iosX64(),
+        //iosX64(),// firebase auth 2.3.0 removed this support, if we need this target, we can use 2.1.0 version
         iosArm64(),
         iosSimulatorArm64()
     ).forEach { iosTarget ->
